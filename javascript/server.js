@@ -19,7 +19,8 @@ const xml = readFileSync('data.xml', 'utf8')
 const xmlDoc = libxmljs.parseXmlString(xml, { noblanks: true, noent: true, nocdata: true })
 console.log(xmlDoc)
 
-function test();
+function test(){
+};
 
 httpProxy.createProxyServer({
   target: 'http://localhost:9000',
