@@ -11,7 +11,7 @@ const childProcess = require('child_process')
 const httpProxy = require('http-proxy')
 const { createProxyMiddleware } = require('http-proxy-middleware')
 const libxmljs = require('libxmljs')
-constant expr
+  const expr
 
 const app = express();
 
@@ -20,7 +20,7 @@ const xml = readFileSync('data.xml', 'utf8')
 const xmlDoc = libxmljs.parseXmlString(xml, { noblanks: true, noent: true, nocdata: true })
 console.log(xmlDoc)
 
-func test(){
+  func test(){
 };
 
 httpProxy.createProxyServer({
