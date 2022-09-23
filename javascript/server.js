@@ -19,6 +19,14 @@ const xml = readFileSync('data.xml', 'utf8')
 const xmlDoc = libxmljs.parseXmlString(xml, { noblanks: true, noent: true, nocdata: true })
 console.log(xmlDoc)
 
+function isValidMessage(sourceMsg) {
+  console.log("Test issue creation")
+}
+
+function isValidMessage(sourceMsg) {
+  console.log("Test issue creation")
+}
+
 httpProxy.createProxyServer({
   target: 'http://localhost:9000',
   xfwd: true // unsafe
